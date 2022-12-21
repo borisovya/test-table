@@ -19,7 +19,7 @@ function NavBar() {
             </Link>
             <Link
                 activeClass={s.active}
-                to="chart"
+                to="charts"
                 spy={true}
                 smooth={true}
                 offset={-50}

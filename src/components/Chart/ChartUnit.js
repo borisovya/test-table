@@ -1,4 +1,5 @@
 import React from 'react';
+import s from './Chart.module.css'
 import {getData} from "../../Data/Data";
 import {Line} from 'react-chartjs-2'
 import {
@@ -58,18 +59,19 @@ export const ChartUnit = () => {
 
 
     return (
-        <div>
-            <h2>Chart Date/Price</h2>
-            <Line
-                data={dataPrice}
-                options={options}
-            />
-            <h2>Chart Date/Volume</h2>
-            <Line
-                data={dataVolume}
-                options={options}
-            />
-
+        <div id='charts'>
+            <div  className={s.chartContainer}>
+                <h2>График Date/Price</h2>
+                <Line
+                    data={dataPrice}
+                    options={options}
+                />
+                <h2>График Date/Volume</h2>
+                <Line
+                    data={dataVolume}
+                    options={options}
+                />
+            </div>
         </div>
     );
 };

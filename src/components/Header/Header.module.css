@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: fixed;
   padding: 0 30px;
   height: 80px;
   background-color: dodgerblue;

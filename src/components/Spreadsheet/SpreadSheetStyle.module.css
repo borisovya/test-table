@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    max-height: 375px;
+    max-height: 485px;
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -8,9 +8,7 @@
 }
 
 .table {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 150px;
 }
 
 .tBody td {

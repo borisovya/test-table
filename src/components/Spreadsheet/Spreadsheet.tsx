@@ -32,8 +32,8 @@ const Spreadsheet = () => {
         return result
     }
 
-    return <div className={s.container}>
-        <TableContainer component={Paper}>
+    return <div className={s.container} id='table'>
+        <TableContainer component={Paper} className={s.table}>
             <Table sx={{minWidth: 650}} aria-label="simple table">
                 <TableHead>
                     <TableRow>
