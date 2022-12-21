@@ -1,0 +1,24 @@
+.navBar {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  margin-right: 70px}
+
+.link{
+
+  }
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500}
+
+a:hover {
+      color:#f9004d;
+      cursor: pointer;
+    }
+
+.active{
+    color:#f9004d
+  }
