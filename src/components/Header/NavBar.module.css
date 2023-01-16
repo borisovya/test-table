@@ -15,10 +15,10 @@ a {
     font-weight: 500}
 
 a:hover {
-      color:midnightblue;
+      color: navy;
       cursor: pointer;
     }
 
 .active{
-    color: midnightblue;
+    color: navy;
   }

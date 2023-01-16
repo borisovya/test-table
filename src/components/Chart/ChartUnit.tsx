@@ -32,7 +32,6 @@ export const ChartUnit = () => {
         }
         ]
     }
-
     const dataVolume = {
         labels: Data.map(el=>el.Date),
         datasets: [{
@@ -45,31 +44,16 @@ export const ChartUnit = () => {
         ]
     }
 
-    const options = {
-        plugins: {
-            legend: true
-        },
-        scales: {
-            y: {
-                // min:3,
-                // max: 6
-            }
-        }
-    }
-
-
     return (
         <div id='charts'>
             <div  className={s.chartContainer}>
-                <h2>График Date/Price</h2>
+                <h2>Графики Date/Price</h2>
                 <Line
                     data={dataPrice}
-                    options={options}
                 />
                 <h2>График Date/Volume</h2>
                 <Line
                     data={dataVolume}
-                    options={options}
                 />
             </div>
         </div>
